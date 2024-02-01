@@ -1,0 +1,88 @@
+/* body {
+  margin: 0;
+} */
+.header {
+  /* position: fixed; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
+  gap: 2em;
+}
+.card {
+  border: 2px solid #303340;
+  padding: 1rem;
+  width: 400px;
+  margin: 0 auto;
+  background-color: #bdc3cb;
+  flex: 1;
+}
+h2 {
+  margin-top: 0;
+}
+span {
+  display: block;
+}
+.sous-titre {
+  margin-bottom: 1rem;
+}
+.container-image {
+  position: relative;
+  border-radius: 10px;
+}
+div img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.badge {
+  background: #fd7f20;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.photos {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  font-weight: bold;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.milieu {
+  /* position: fixed; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: space-between;
+  gap: 1em;
+  margin-top: 1em;
+}
+.card1 {
+  border: 2px solid #303340;
+  padding: 1rem;
+  width: 800px;
+  margin: 0 auto;
+  background-color: #bdc3cb;
+}
+@media screen and (max-width: 400px) {
+  div {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  div {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 250px) {
+  div {
+    width: 100%;
+  }
+}
