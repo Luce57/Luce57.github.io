@@ -1,5 +1,6 @@
 body {
   background-color: #fcfaf0;
+  margin: 0;
 }
 
 h1 {
@@ -36,6 +37,8 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-top: 1rem;
+  margin-left: 1rem;
 }
 .img_logo {
   border-radius: 100%;
@@ -131,23 +134,61 @@ button {
   text-align: justify;
 }
 /* section 5 reseaux */
+.section_5 h2 {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  text-decoration: underline;
+  text-decoration-color: #a481f9;
+}
 .card_reseaux {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 10rem;
+  margin-right: 10rem;
 }
 .card_reseaux img {
   height: 250px;
   width: 250px;
-  /* padding: 4rem; */
-  /* display: block;
-  margin-left: auto;
-  margin-right: auto; */
-  /* display: flex;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto; */
+  object-fit: cover;
 }
 .card_reseaux div {
   display: flex;
   justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+/* section6 Contactez-nous */
+.section_6 h2 {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  text-decoration: underline;
+  text-decoration-color: #a481f9;
+}
+.section_6 .p2 {
+  margin: 8rem;
+  text-align: justify;
+}
+.bold {
+  font-weight: 600;
+  font-size: 20px;
+}
+/* footer */
+footer .reseaux img {
+  width: 70px;
+  height: 60px;
+  color: #a481f9;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 6rem;
+  height: 238px;
+  background-color: #f1d0b1;
+  margin: 0rem;
+}
+.reseaux {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
 }
