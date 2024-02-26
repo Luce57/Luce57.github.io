@@ -9,6 +9,8 @@ h1 {
 h2 {
   font-family: "Bebas Neue", sans-serif;
   font-size: 24px;
+
+  text-align: center;
 }
 h3 {
   font-family: "Montserrat", sans-serif;
@@ -19,11 +21,14 @@ h3 {
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
   font-weight: 600;
+  margin-bottom: 0rem;
 }
 .p2 {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-weight: 400;
+  margin-bottom: 0rem;
+  margin-top: 0rem;
 }
 
 /* header */
@@ -60,4 +65,89 @@ button {
   border: none;
   height: 81px;
   width: 234px;
+}
+
+.section_1 {
+  display: flex;
+  gap: 20rem;
+  margin: 11rem;
+  flex-direction: row;
+  align-items: center;
+}
+.contenu_1 h1 {
+  margin-bottom: 0;
+}
+.contenu_1 .p1 {
+  margin-top: 0;
+  margin-bottom: 4rem;
+}
+
+/* section2 */
+.section_2 h2 {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  text-decoration: underline;
+  text-decoration-color: #a481f9;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.card1 {
+  height: 200px;
+  width: 300px;
+}
+
+/* section3 bouton commander */
+.commander {
+  background-color: #a481f9;
+}
+.commander .p1 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 5rem;
+}
+.commander button {
+  margin-left: auto;
+  display: block;
+  margin-right: auto;
+}
+.button_commander {
+  padding-bottom: 3rem;
+}
+/* section4 */
+.section_4 h2 {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  text-decoration: underline;
+  text-decoration-color: #a481f9;
+}
+.section_4 .p2 {
+  margin: 3rem;
+  text-align: justify;
+}
+/* section 5 reseaux */
+.card_reseaux {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.card_reseaux img {
+  height: 250px;
+  width: 250px;
+  /* padding: 4rem; */
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto; */
+  /* display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto; */
+}
+.card_reseaux div {
+  display: flex;
+  justify-content: center;
 }
