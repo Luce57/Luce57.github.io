@@ -192,3 +192,41 @@ footer {
   align-items: center;
   margin-right: 2rem;
 }
+
+/* nouvelle pages menu */
+.menu_texte {
+  width: 1087px;
+  margin: auto;
+  padding-bottom: 2rem;
+}
+.menu div {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+.menu img {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+.menu {
+  background-color: #ffffff;
+  border: 3px solid #f3a5dd;
+  width: 1087px;
+  height: 1514px;
+  margin: auto;
+}
+.menu h2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-decoration: underline;
+  text-decoration-color: #a481f9;
+}
+.menu .p1 {
+  text-align: center;
+  margin: 2rem;
+}
+.menu .p2 {
+  text-align: center;
+}
