@@ -195,9 +195,10 @@ footer {
 
 /* nouvelle pages menu */
 .menu_texte {
-  width: 1087px;
-  margin: auto;
+  /* padding-left: 11rem; */
+  /* margin: auto; */
   padding-bottom: 2rem;
+  margin-left: 2rem;
 }
 .menu div {
   display: flex;
@@ -250,8 +251,20 @@ footer {
 
 /* modification responsive /mobile media querry */
 /* 1024px */
-/* @media screen and (max-width: 1110px) {
-} */
+@media screen and (max-width: 1110px) {
+  /* Yummy html */
+  /* section 1 a modifier*/
+  /* section 5 travailler le gap entre les images*/
+  /* menu */
+  .menu {
+    background-color: #ffffff;
+    border: 3px solid #f3a5dd;
+    width: 850px;
+    height: 1430px;
+    margin: auto;
+  }
+  /* la page contact a modifier  */
+}
 /* 991px */
 /* @media screen and (max-width: 991px) {
 } */
@@ -288,9 +301,6 @@ footer {
   }
   /* modification du header nav */
   header {
-    /* display: flex;
-    flex-direction: row;
-    align-items: center; */
     margin-top: 1rem;
     margin-left: 1rem;
     display: grid;
@@ -302,26 +312,135 @@ footer {
     flex-direction: column;
     align-items: flex-end;
     gap: 0rem;
+    margin-right: 2rem;
+  }
+  /* section 1 */
+  .section_1 {
+    display: flex;
+    gap: 5rem;
+    margin: 11rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contenu_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* section 2 */
+  .cards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  /* section4 */
+  .section_4 h2 {
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+  }
+  .section_4 .p2 {
+    text-align: center;
+    margin-left: 16rem;
+    margin-right: 16rem;
+  }
+  /* section 5 */
+  .section_5 h2 {
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+  }
+  .card_reseaux {
+    display: block;
+  }
+  /* section6 */
+  .section_6 .p2 {
+    /* margin: 8rem; */
+    margin-left: 12rem;
+    text-align: center;
+    margin-right: 12rem;
+  }
+  .section_6 h2 {
+    margin-top: 8rem;
+    margin-bottom: -4rem;
+  }
+  /* footer */
+  footer {
+    justify-content: center;
+  }
+  /*  page menu */
+  .menu_texte {
+    margin: auto;
+    padding-bottom: 2rem;
+    text-align: center;
+  }
+  .menu {
+    background-color: #ffffff;
+    border: 3px solid #f3a5dd;
+    width: 309px;
+    height: 535px;
+    margin: auto;
+  }
+  .menu h2 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-decoration: underline;
+    text-decoration-color: #a481f9;
+  }
+  .menu .p2 {
+    display: none;
+  }
+  .menu .p1 {
+    text-align: center;
+    margin: 0rem;
+  }
+  /* pages contact */
+  .adress_map {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  .adress {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    margin-left: 0rem;
+  }
+  .map {
+    display: none;
+  }
+  .carte {
+    display: none;
+  }
+  .section_6 h2 {
+    margin-top: 6rem;
+    margin-bottom: -4rem;
   }
 }
-
-/* section 1 */
-.section_1 {
-  gap: 0rem;
-}
-/* section 2 */
-/* .cards {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-} */
-
 /* 650px */
 /* @media screen and (max-width: 650px) {
 } */
-
 /* 550px */
-/* @media screen and (max-width: 550px) {
-} */
+@media screen and (max-width: 430px) {
+  .section_4 .p2 {
+    text-align: center;
+    margin: 0rem;
+    /* margin-left: 16rem; */
+    /* margin-right: 16rem; */
+  }
+  .section_6 h2 {
+    margin-top: 8rem;
+    margin-bottom: 0rem;
+  }
+  .section_6 .p2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  /* footer */
+  footer {
+    gap: 0rem;
+  }
+}
