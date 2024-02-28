@@ -247,3 +247,22 @@ footer {
   justify-content: center;
   margin-left: 7rem;
 }
+
+/* modification responsive /mobile media querry */
+/* 1024px */
+@media screen and (max-width: 1110px) {
+}
+/* 991px */
+@media screen and (max-width: 991px) {
+}
+
+/* 768px */
+@media screen and (max-width: 768px) {
+}
+/* 650px */
+@media screen and (max-width: 650px) {
+}
+
+/* 550px */
+@media screen and (max-width: 550px) {
+}
