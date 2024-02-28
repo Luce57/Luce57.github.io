@@ -230,3 +230,20 @@ footer {
 .menu .p2 {
   text-align: center;
 }
+
+/* page contact */
+.carte {
+  width: 828px;
+  height: 714px;
+}
+.adress_map {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.adress {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  margin-left: 7rem;
+}
