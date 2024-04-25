@@ -1,0 +1,1349 @@
+body {
+  margin: 0px;
+}
+h1 {
+  font-family: "Roboto Serif", serif;
+  font-size: 32px;
+  font-weight: normal;
+}
+h2 {
+  font-family: "Roboto Serif", serif;
+  font-weight: normal;
+  font-size: 28px;
+}
+h3 {
+  font-family: "Roboto Serif", serif;
+  font-size: 24px;
+}
+h4 {
+  font-family: "Bellota Text", sans-serif;
+  font-size: 21px;
+}
+h5 {
+  font-family: "Bellota Text", sans-serif;
+  font-size: 18px;
+}
+p {
+  font-family: "Bellota Text", sans-serif;
+  font-size: 18px;
+}
+a {
+  font-family: "Bellota Text", sans-serif;
+  font-size: 28px;
+  text-decoration: none;
+  color: black;
+}
+ul {
+  list-style: none;
+}
+/* navigateur */
+header {
+  background-color: #d6dac8;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.home {
+  background: none;
+  border: none;
+  font-size: 24px;
+}
+.search-icon {
+  font-size: 24px; /* Change la taille de l'icône */
+  background: none;
+  border: none;
+}
+
+.logo {
+  border-radius: 100%;
+  width: 100px;
+}
+#site-search {
+  background-color: #f2f2f2; /* Change la couleur de fond */
+  color: #d6dac8; /* Change la couleur du texte */
+  padding: 10px; /* Ajoute un peu d'espace autour du texte */
+  border-radius: 50px; /* Rend les coins de la barre de recherche légèrement arrondis */
+  width: 400px;
+  margin-top: 10px;
+}
+.navigation_1 ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+.recherche {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.navigation_2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.navigation_2 ul {
+  padding-left: 4rem;
+}
+/* banniere */
+
+#carousel {
+  width: 100%;
+  height: 433px;
+  object-fit: cover;
+  opacity: 80%;
+  position: relative;
+}
+.titre_banniere {
+  position: absolute;
+  /* top: 14%; */
+  left: 5%;
+  text-align: center;
+}
+.titre_banniere h1 {
+  font-family: "Roboto Serif", serif;
+  font-weight: normal;
+  font-size: 72px;
+  color: #d6dac8;
+  position: absolute;
+  bottom: 37px;
+  width: 100%;
+  white-space: nowrap;
+}
+/* oeuvres à la une  */
+.titre_acceuil {
+  text-align: center;
+}
+.oeuvre_a_la_une {
+  /* width: 400px; */
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.oeuvreUne {
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
+  margin-bottom: 10rem;
+}
+
+/* gallerie */
+.titre_acceuil {
+  margin-bottom: 120px;
+}
+.fond {
+  width: 100%;
+  height: 400px;
+  background-color: #d6dac8;
+  position: absolute;
+  z-index: 0;
+}
+.type {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: space-around;
+  /* top: 22%;
+  position: relative;
+  z-index: 2; */
+}
+.card_1 {
+  position: relative;
+  margin-left: 90px;
+  /* top: -5%; */
+}
+.card_1 a {
+  font-family: "Roboto Serif", serif;
+  font-weight: normal;
+  font-size: 28px;
+  color: #fbf3d5;
+  z-index: 1;
+  position: absolute;
+  bottom: 55px;
+  width: 78%;
+  text-align: center;
+}
+.card_1 img {
+  width: 204px;
+  height: 437px;
+  object-fit: cover;
+  border: 4px solid #9cafaa;
+  opacity: 70%;
+  position: relative;
+  z-index: 0;
+  top: -5%;
+}
+/* A propos */
+.carousel {
+  width: 561px;
+  height: 397px;
+  margin-left: 100px;
+}
+#carousel_propos {
+  width: 561px;
+  height: 397px;
+}
+.texte {
+  text-align: center;
+  margin-right: 100px;
+  height: 365px;
+  width: 561px;
+}
+
+a.cta {
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(to right, #efbc9b, #f7f3e0);
+  color: #000; /* Couleur du texte */
+  padding: 10px 20px; /* Ajustez le padding si nécessaire */
+  text-decoration: none;
+  font-size: 30px; /* Ajustez la taille de la police si nécessaire */
+  transition: all 0.3s ease;
+}
+
+a.cta:hover {
+  background: linear-gradient(to right, #f7f3e0, #efbc9b);
+}
+.a_propos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+/* contact */
+.contact {
+  margin-bottom: 10rem;
+}
+.texte_contact {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.fond_contact {
+  width: 100%;
+  height: 400px;
+  background-color: #d6dac8;
+  position: absolute;
+  z-index: -1;
+}
+
+/* footer */
+footer {
+  background-color: #d6dac8;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  height: 133px;
+  /* margin-top: 10rem; */
+  width: 100%;
+}
+.navigation_footer nav {
+  margin-left: 200px;
+}
+.navigation_footer ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.navigation_footer ul li {
+  margin-right: 200px;
+}
+.social-media a {
+  margin-right: 100px;
+}
+.social-media a i {
+  font-size: 40px;
+}
+/* a partir d'ici d 'autre page web */
+/* pages oeuvres */
+.container {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.fond_gradiant {
+  width: 1128px;
+  height: 344px;
+  background: linear-gradient(#fbf3d5, #d6dac8);
+  position: absolute;
+  z-index: 0;
+}
+.h2_oeuvre h2 {
+  text-align: center;
+  margin-top: 0rem;
+  margin-bottom: 4rem;
+  position: relative;
+  z-index: 1;
+}
+.titre_oeuvre {
+  margin: 0;
+}
+.container_dessin {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  /* padding-left: 10rem;
+  padding-right: 10rem; */
+  top: -6rem;
+}
+.card_dessin {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+.card_dessin img {
+  width: 170px;
+  height: 170px;
+  object-fit: contain;
+  padding: 1rem;
+}
+.card_dessin p {
+  font-family: "Bellota Text", sans-serif;
+  font-size: 18px;
+  margin-top: -1rem;
+}
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card_dessin i {
+  position: relative;
+  top: -3rem;
+}
+
+/* oeuvre_page */
+.container_pgOeuvre {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+.img_pageOeuvre {
+  display: flex;
+}
+
+.img_pageOeuvre img {
+  width: 356px;
+  height: 404px;
+  object-fit: contain;
+  padding: 4rem;
+  margin: auto;
+}
+.texte_pageOeuvre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* height: 240px; */
+  width: 454px;
+  text-align: center;
+  padding: 4rem;
+}
+
+/* APropos */
+.Propos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 4rem;
+}
+.img_galerie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img_galerie img {
+  width: 262px;
+  height: 276px;
+  object-fit: contain;
+}
+.texte_Propos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+.img_galerie1,
+.img_galerie2,
+.img_galerie3,
+.titre_Propos,
+.texteP1,
+.textP2,
+.textP3,
+.textP4,
+.textP5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.bouton_propos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* Ici debute les formulaires*/
+
+/* inscription connexion et contact on le meme css */
+.container_inscription {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 1000px;
+  height: 1000px;
+}
+.fond_formulaire {
+  width: 942px;
+  height: 700px;
+  background: linear-gradient(#fbf3d5, #d6dac8);
+  position: absolute;
+  z-index: 0;
+  margin: auto;
+}
+.container_inscription .fond_formulaire {
+  width: 942px;
+  height: 900px;
+  background: linear-gradient(#fbf3d5, #d6dac8);
+  position: absolute;
+  z-index: 0;
+  margin: auto;
+}
+
+.inscription {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+.inscription h1 {
+  margin: 2rem;
+}
+input {
+  background-color: #d6dac8;
+  border: none;
+  width: 467px;
+  height: 66px;
+  border-radius: 15px;
+  margin: 1rem;
+}
+
+/* contact */
+.container_inscriptionConnexion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 1000px;
+  height: 900px;
+}
+
+.fond_formulaireConnexion {
+  width: 942px;
+  height: 700px;
+  background: linear-gradient(#fbf3d5, #d6dac8);
+  position: absolute;
+  z-index: 0;
+  margin: auto;
+}
+
+/* juste pour l input message dans contact a été modifier  */
+.message {
+  width: 474px;
+  height: 123px;
+}
+
+.cta {
+  width: 218px;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(to right, #efbc9b, #f7f3e0);
+  color: #000; /* Couleur du texte */
+  padding: 10px 20px; /* Ajustez le padding si nécessaire */
+  text-decoration: none;
+  font-size: 30px; /* Ajustez la taille de la police si nécessaire */
+  transition: all 0.3s ease;
+}
+.cta:hover {
+  background: linear-gradient(to right, #f7f3e0, #efbc9b);
+}
+input::placeholder {
+  font-size: 18px;
+}
+
+/* ici les div qui contienne lien de la page contact */
+.liens_contact {
+  display: flex;
+  z-index: 1;
+  margin-top: 7rem;
+}
+.liens_contact .social-media {
+  margin-left: 4rem;
+}
+.liens_contact .social-media a {
+  margin-right: 38px;
+}
+
+.textarea-input-like {
+  display: flex;
+  flex-direction: column;
+  /* Ajoutez ici les styles pour faire ressembler votre textarea à votre input */
+  background-color: #d6dac8;
+  border: none;
+  width: 467px;
+  height: 123px;
+  border-radius: 15px;
+  margin: 1rem;
+  resize: none; /* Empêche le redimensionnement */
+}
+.textarea-input-like::placeholder {
+  font-size: 20px; /* Remplacez 16px par la taille de police que vous voulez */
+  font-family: "Bellota Text", sans-serif;
+  font-weight: normal;
+}
+
+/* compte utilistateur */
+.avatar img {
+  border-radius: 100%;
+  width: 194px;
+  height: 192px;
+  object-fit: cover;
+}
+.fond_utilisateur {
+  width: 985px;
+  height: 365px;
+  background: linear-gradient(#fbf3d5, #d6dac8);
+  position: relative;
+  z-index: 0;
+  margin: auto;
+  z-index: 0;
+}
+.oeuvre_favoris img {
+  height: 130px;
+  width: 130px;
+  object-fit: contain;
+}
+.profil {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* margin: 5rem; */
+  margin-left: 14rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  margin-right: 22rem;
+  justify-items: center;
+}
+
+.container_utilisateur {
+  display: flex;
+  flex-direction: column;
+}
+.container_favoris {
+  display: flex;
+  flex-direction: column;
+  top: -21rem;
+  position: relative;
+  z-index: 1;
+  align-items: center;
+}
+.utilisateur {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.titre_favoris {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 4rem;
+}
+
+.favoris {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  z-index: 1;
+  width: 985px;
+}
+
+/* compte administrateur */
+
+/* .fond_admin {
+  width: 985px;
+  height: 365px;
+  background: linear-gradient(#fbf3d5, #d6dac8);
+  position: relative;
+  z-index: 0;
+  margin: auto;
+  z-index: 1;
+} */
+.container_admin {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  flex-direction: column;
+}
+.profil_admin {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 17rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #0f0606;
+  padding: 8px;
+}
+
+th {
+  background: linear-gradient(#fbf3d5, #d6dac8);
+  color: #0f0606;
+}
+
+/* tr:nth-child(even) {
+  background-color: #1e226e;
+} */
+.tab_utilisateur,
+.tab_oeuvres {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 80%; /* Ajustez selon vos besoins */
+  margin-bottom: 4rem;
+}
+
+/* page message d'erreur */
+.excuse {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 14%;
+}
+.texte_excuse {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#resetForm {
+  position: fixed; /* Position fixe par rapport à la fenêtre du navigateur */
+  z-index: 1; /* S'assurer qu'il s'affiche au-dessus des autres éléments */
+  left: 50%; /* Centrer horizontalement */
+  top: 50%; /* Centrer verticalement */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Ajuster la position pour que le centre du formulaire soit au centre de la page */
+  /* Ajouter un arrière-plan pour que le formulaire se démarque du reste de la page */
+  background: rgba(255, 255, 255, 1);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.delete-account {
+  margin: 17rem; /* Ajustez cette valeur selon vos besoins */
+}
+/* media querie */
+@media screen and (max-width: 1110px) {
+  /* gallerie.php */
+
+  .card_1 {
+    position: relative;
+    margin-left: 37px;
+  }
+  .card_1 a {
+    font-family: "Roboto Serif", serif;
+    font-weight: normal;
+    font-size: 28px;
+    color: #fbf3d5;
+    z-index: 1;
+    position: absolute;
+    bottom: 55px;
+    width: 98%;
+    text-align: center;
+  }
+
+  /* a propos */
+  .a_propos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 20rem;
+  }
+  .carousel {
+    width: 461px;
+    height: 297px;
+    margin-left: 25px;
+  }
+  .texte {
+    text-align: center;
+    margin-right: -60px;
+    height: 315px;
+    width: 361px;
+  }
+
+  a.cta {
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(to right, #efbc9b, #f7f3e0);
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.3s ease;
+  }
+
+  /* footer */
+  .navigation_footer nav {
+    margin-left: 100px;
+  }
+  .social-media a {
+    margin-right: 50px;
+  }
+}
+/* ici debute mofification autre page  */
+/* oeuvre page */
+
+/* page administrateur */
+.profil_admin {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 6rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+@media screen and (max-width: 991px) {
+}
+@media screen and (max-width: 768px) {
+  /* header */
+  #site-search {
+    background-color: #f2f2f2; /* Change la couleur de fond */
+    color: #d6dac8; /* Change la couleur du texte */
+    padding: 10px; /* Ajoute un peu d'espace autour du texte */
+    border-radius: 50px; /* Rend les coins de la barre de recherche légèrement arrondis */
+    width: 300px;
+    margin-top: 10px;
+  }
+  .navigation_1 ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+  }
+  .navigation_2 ul {
+    padding-left: 1rem;
+  }
+  /* oeuvres a la une */
+
+  .oeuvreUne {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+  }
+  /* gallerie */
+  /* .titre_acceuil {
+    margin-bottom: 100px;
+  } */
+  .type {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  .card_1 {
+    position: relative;
+    margin-left: 5px;
+  }
+  .card_1 img {
+    width: 204px;
+    height: 88px;
+    object-fit: cover;
+    border: 4px solid #9cafaa;
+    opacity: 70%;
+    position: relative;
+    z-index: 0;
+  }
+  .card_1 a {
+    font-family: "Roboto Serif", serif;
+    font-weight: normal;
+    font-size: 28px;
+    color: #fbf3d5;
+    z-index: 1;
+    position: absolute;
+    bottom: 36px;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* a propos */
+  propos .titre_acceuil {
+    margin-bottom: -108px;
+  }
+  propos .titre_acceuil h2 {
+    font-family: "Roboto Serif", serif;
+    font-weight: normal;
+    font-size: 28px;
+    margin-bottom: -205px;
+  }
+  .texte {
+    text-align: center;
+    margin-right: 0px;
+    height: 313px;
+    width: 365px;
+    /* margin-top: 9rem; */
+  }
+  .a_propos {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    flex-direction: column-reverse;
+    margin-top: -183px;
+  }
+  .carousel {
+    width: 461px;
+    height: 297px;
+    margin-left: -90px;
+    margin-top: 20rem;
+  }
+  .texte {
+    text-align: center;
+    margin-right: 0px;
+    height: 315px;
+    width: 361px;
+    margin-top: 9rem;
+  }
+  /* contact */
+  .fond_contact {
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    z-index: -1;
+  }
+  .texte_contact {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    top: 15%;
+    margin-top: 120px;
+  }
+
+  /* footer */
+  .navigation_footer nav {
+    margin-left: 50px;
+  }
+  .navigation_footer ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  /* ici debute les autres pages pour modifier en mobile */
+  /* oeuvre_dessin qui gere aussi meme nom de classe oeuvre peinture/photo/ai */
+  .container {
+    display: grid;
+    place-items: center;
+    height: 1115px;
+    margin: 0;
+  }
+  .h2_oeuvre {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 8rem;
+  }
+  .fond_gradiant {
+    width: 570px;
+    height: 1115px;
+    background: linear-gradient(#fbf3d5, #d6dac8);
+    position: absolute;
+    z-index: -1;
+    margin-bottom: 4rem;
+  }
+  .container_dessin {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* top: -6rem; */
+    margin-bottom: 2rem;
+  }
+  /* oeuvre_page */
+
+  .container_pgOeuvre {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  /* ici debute les formulaire mobiles */
+  /* inscritpions */
+  .fond_formulaire {
+    width: 730px;
+    height: 700px;
+    background: linear-gradient(#fbf3d5, #d6dac8);
+    position: absolute;
+    z-index: 0;
+    margin: auto;
+  }
+
+  .container_inscription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 750px;
+    height: 800px;
+  }
+
+  /* compte_utilisateur  */
+
+  .fond_utilisateur {
+    width: 760px;
+    height: 365px;
+    background: linear-gradient(#fbf3d5, #d6dac8);
+    position: relative;
+    z-index: 0;
+    margin: auto;
+    z-index: 0;
+  }
+  .favoris {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    z-index: 1;
+    width: 760px;
+    /* height: 365px; */
+  }
+  .container_utilisateur {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -10rem;
+  }
+  /* page administrateur  */
+  .profil_admin {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 3rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
+}
+@media screen and (max-width: 430px) {
+  /* header */
+  header {
+    background-color: #d6dac8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #site-search {
+    background-color: #f2f2f2;
+    color: #d6dac8;
+    padding: 10px;
+    border-radius: 50px;
+    width: 200px;
+    margin-top: 10px;
+  }
+  .navigation_1 ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  .navigation_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .navigation_2 ul {
+    margin-top: 0rem;
+  }
+  /* banniere */
+  .titre_banniere {
+    position: absolute;
+    top: 51%;
+    left: 5%;
+    text-align: center;
+  }
+
+  .titre_banniere h1 {
+    font-family: "Roboto Serif", serif;
+    font-weight: normal;
+    font-size: 22px;
+    color: #d6dac8;
+  }
+  /* oeuvres a la une */
+
+  .oeuvre_a_la_une {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: -125px;
+  }
+  .oeuvreUne {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+  }
+  img.oeuvreUne[src="/galerieDart/images_photos/oeuvres/peintures/woman.jpg"],
+  img.oeuvreUne[src="/galerieDart/images_photos/oeuvres/dessin/girl_lavande.jpg"] {
+    display: none;
+  }
+
+  /* a propos */
+  .a_propos {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    flex-direction: column-reverse;
+    margin-top: -98px;
+  }
+  #carousel_propos {
+    width: 200px;
+    height: 200px;
+    object-fit: scale-down;
+  }
+  .carousel {
+    width: 200px;
+    height: 200px;
+    margin-left: 2px;
+    margin-top: 8rem;
+  }
+  .texte {
+    text-align: center;
+    margin-right: 0px;
+    height: 581px;
+    width: 274px;
+    margin-top: 0rem;
+  }
+  /* contact  */
+  .contact {
+    margin-top: -256px;
+  }
+  .fond_contact {
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    z-index: -1;
+  }
+  /* footer */
+  .navigation_footer ul li {
+    margin-right: 100px;
+  }
+  .navigation_footer nav {
+    margin-left: 25px;
+  }
+  .social-media {
+    display: flex;
+    flex-direction: column;
+  }
+  .social-media a {
+    margin-right: 10px;
+  }
+  /* ici debute les autres pages pour modifier en mobile */
+  /* oeuvre_dessin qui gere aussi meme nom de classe oeuvre peinture/photo/ai */
+  .fond_gradiant {
+    width: 275px;
+    height: 1790px;
+    background: linear-gradient(#fbf3d5, #d6dac8);
+    position: absolute;
+    z-index: -1;
+    margin-bottom: 4rem;
+  }
+  .container_dessin {
+    position: relative;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    /* top: -6rem; */
+    margin-bottom: 2rem;
+    flex-direction: column;
+  }
+  .container {
+    display: grid;
+    place-items: center;
+    height: 1874px;
+    margin: 0;
+  }
+
+  /* oeuvre_page */
+
+  .container_pgOeuvre {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .texte_pageOeuvre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height: 240px; */
+    width: 80%;
+    text-align: center;
+    padding: 0rem;
+  }
+  .img_pageOeuvre img {
+    width: 250px;
+    height: 404px;
+    object-fit: contain;
+    padding: 0rem;
+    /* margin: auto; */
+  }
+
+  /* aPropos */
+  .Propos {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img_galerie1,
+  .img_galerie2,
+  .img_galerie3,
+  .titre_Propos,
+  .texteP1,
+  .textP2,
+  .textP3,
+  .textP4,
+  .textP5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
+  .titre_Propos h1 {
+    order: 1;
+  }
+  .img_galerie3 {
+    order: 2;
+  }
+  .texteP1 {
+    order: 3;
+  }
+  .img_galerie1 {
+    order: 4;
+  }
+  .textP2 {
+    order: 5;
+  }
+  .img_galerie2 {
+    order: 6;
+  }
+  .textP3 {
+    order: 7;
+  }
+  .textP4 {
+    order: 8;
+  }
+  .textP5 {
+    order: 9;
+  }
+  .bouton_propos {
+    order: 10;
+  }
+  /* ici debute les formulaire mobiles */
+  /* inscription */
+  .container_inscription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+  }
+  .fond_formulaire {
+    width: 254px;
+    height: 600px;
+    background: linear-gradient(#fbf3d5, #d6dac8);
+    position: absolute;
+    z-index: 0;
+    margin: auto;
+  }
+  input {
+    background-color: #d6dac8;
+    border: none;
+    width: 162px;
+    height: 45px;
+    border-radius: 15px;
+    margin: 1rem;
+    text-align: center;
+  }
+  /* page contact et attention autre page lier a cela: inscription et connexion */
+  .container_inscription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem;
+    width: 410px;
+  }
+  .message {
+    width: 162px;
+    height: 45px;
+  }
+  .liens_contact {
+    display: flex;
+    z-index: 1;
+    flex-direction: column;
+  }
+  .liens_contact .social-media {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: row;
+  }
+  .liens_contact a {
+    font-family: "Bellota Text", sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin: 1rem;
+  }
+  .profil {
+    display: flex;
+    grid-template-columns: 1fr;
+    margin: 5rem;
+    flex-direction: column-reverse;
+  }
+
+  .fond_utilisateur {
+    width: 258px;
+    height: 1000px;
+    background: linear-gradient(#fbf3d5, #d6dac8);
+    position: relative;
+    z-index: 0;
+    margin: auto;
+    z-index: 0;
+  }
+  .favoris {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    z-index: 1;
+    width: 320px;
+    /* height: 365px; */
+    align-items: center;
+  }
+  .container_favoris {
+    display: flex;
+    flex-direction: column;
+    top: -57rem;
+    position: relative;
+    z-index: 1;
+    align-items: center;
+    margin-bottom: -33rem;
+  }
+  .avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .utilisateur {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  /* compte administrateur */
+
+  .profil_admin {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  /* 
+  table {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+  .tab_utilisateur,
+  .tab_oeuvres {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 80%;
+    margin-bottom: 4rem;
+  } */
+
+  /* Lorsque la largeur de l'écran est de 430px ou moins, nous changeons le tableau en blocs verticaux */
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+
+  /* Les en-têtes de colonne sont cachés */
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  /* Chaque cellule est affichée comme une rangée */
+  tr {
+    border: 1px solid #ccc;
+  }
+
+  td {
+    /* Les cellules sont affichées en bloc */
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50%;
+  }
+
+  td:before {
+    /* Nous utilisons les en-têtes de colonne pour les étiquettes */
+    position: absolute;
+    /* A gauche de la cellule avec un petit décalage */
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+
+  /*
+  Étiquetez les données de la cellule en utilisant les attributs de l'élément
+  Content for CSS is added via attr() here
+  */
+  td:nth-of-type(1):before {
+    content: "Column 1";
+  }
+  td:nth-of-type(2):before {
+    content: "Column 2";
+  }
+  /* Ajoutez autant de sélecteurs que nécessaire */
+}
