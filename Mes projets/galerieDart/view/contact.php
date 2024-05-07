@@ -1,8 +1,8 @@
 <?php
 // session_start();
-if (session_status() !== PHP_SESSION_ACTIVE) {
-    session_start();
-}
+// if (session_status() !== PHP_SESSION_ACTIVE) {
+//     session_start();
+// }
 include $_SERVER['DOCUMENT_ROOT'] . "/galerieDart/view/header.php"; ?>
 <div class="container_inscription">
     <?php if (isset($_SESSION['message'])) : ?>

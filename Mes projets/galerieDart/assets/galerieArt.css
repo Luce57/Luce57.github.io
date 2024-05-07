@@ -551,6 +551,8 @@ input::placeholder {
   margin-bottom: 4rem;
   margin-right: 22rem;
   justify-items: center;
+  align-items: center;
+  width: 985px;
 }
 
 .container_utilisateur {
@@ -631,7 +633,8 @@ th {
   background-color: #1e226e;
 } */
 .tab_utilisateur,
-.tab_oeuvres {
+.tab_oeuvres,
+.tab_contact {
   display: flex;
   flex-direction: column;
   margin: auto;
