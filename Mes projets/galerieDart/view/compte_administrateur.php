@@ -9,15 +9,10 @@ if (!function_exists('generateTableRow')) {
         foreach ($fields as $field) {
             echo "<td>" . htmlspecialchars($item->$field) . "</td>";
         }
-        echo "<td>";
-        echo "<a href='edit.php?id=" . htmlspecialchars($item->$idField) . "'>Modifier</a> | ";
-        echo "<a href='delete.php?id=" . htmlspecialchars($item->$idField) . "'>Supprimer</a>";
-        echo "</td>";
         echo "</tr>";
     }
 }
 ?>
-
 <div class="container_admin">
     <div class="profil_admin">
         <div class="administrateur">
@@ -34,7 +29,7 @@ if (!function_exists('generateTableRow')) {
         </div>
     </div>
     <!-- <div class="fond_admin"></div> -->
-    <div class="tab_utilisateur">
+    <div class="tab_utilisateur" style="overflow-x:auto" ;>
         <h2>Utilisateurs</h2>
         <table>
             <thead>
@@ -57,15 +52,15 @@ if (!function_exists('generateTableRow')) {
                 foreach ($users as $current_user) {
                     generateTableRow($current_user, $userFields, 'id_user');
                 }
-
                 ?>
             </tbody>
         </table>
-        <!-- rajouter la page en lien pour injection utilisateur -->
-        <?php echo "<a href='create_user.php'>Créer un nouvel utilisateur</a>"; ?>
+        <a href='Create_Users.php'>Créer</a>
+        <a href='Update_Users.php?id=$id'>Modifier</a>
+        <a href='delete_Users.php?id=$id'>Supprimer</a>
     </div>
     <!-- <div class="fond_admin"></div> -->
-    <div class="tab_oeuvres">
+    <div class="tab_oeuvres" style="overflow-x:auto" ;>
         <h2>Oeuvres</h2>
         <table>
             <thead>
@@ -86,14 +81,15 @@ if (!function_exists('generateTableRow')) {
                 foreach ($objet_art as $current_objet_art) {
                     generateTableRow($current_objet_art, $objetArtFields, 'id_objet');
                 }
-
                 ?>
             </tbody>
         </table>
         <!-- creer lien remplacer href pour injection new oeuvres -->
-        <?php echo "<a href='create_artwork.php'>Créer une nouvelle œuvre</a>"; ?>
+        <a href='Create_Oeuvres.php'>Créer</a>
+        <a href='Update_Oeuvres.php?id=$id'>Modifier</a>
+        <a href='Delete_Oeuvres.php?id=$id'>Supprimer</a>
     </div>
-    <div class="tab_contact">
+    <div class="tab_contact" style="overflow-x:auto" ;>
         <h2>Contacts</h2>
         <table>
             <thead>
@@ -115,9 +111,10 @@ if (!function_exists('generateTableRow')) {
             </tbody>
         </table>
         <!-- creer injection pour contact bdd -->
-        <?php echo "<a href='create_contact.php'>Créer un nouveau contact</a>"; ?>
+        <?php echo "<a href='delete_contact.php'>Supprimer les contacts</a>"; ?>
     </div>
 </div>
+<!--modal creer utilisateur   -->
 
-
+</script>
 <?php include $_SERVER['DOCUMENT_ROOT'] . "/galerieDart/view/footer.php"; ?>
