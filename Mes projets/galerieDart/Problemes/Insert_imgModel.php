@@ -4,12 +4,32 @@ include($_SERVER['DOCUMENT_ROOT'] . "/galerieDart/model/dbb_connect.php");
 
 
 
+class ArtObjectModel
+{
+    private $bdd;
+
+    public function __construct($bdd)
+    {
+        $this->bdd = $bdd;
+    }
+
+    public function getArtObjectById($id_objet)
+    {
+        $stmt = $this->bdd->prepare("SELECT * FROM objet_art WHERE id_objet = ?");
+        $stmt->execute([$id_objet]);
+        return $stmt->fetch();
+    }
+}
 
 
 
 
-
-
+$file = $_SERVER['DOCUMENT_ROOT'] . "/galerieDart/model/Insert_imgModel.php";
+if (file_exists($file)) {
+    require_once($file);
+} else {
+    echo "Le fichier $file n'existe pas";
+}
 
 
 

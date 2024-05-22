@@ -48,9 +48,9 @@ if (isset($_SESSION['message'])) {
                 </div>
             </div>
         </div>
-        <div class="avatar">
+        <!-- <div class="avatar">
             <img src="/galerieDart/images_photos/galerie/artiste2.jpg" alt="">
-        </div>
+        </div> -->
         <h2><a href="<?php $_SERVER['DOCUMENT_ROOT'] ?>/galerieDart/controller/deconnexionController.php">Déconnexion</a></h2>
     </div>
 </div>
