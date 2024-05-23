@@ -60,8 +60,9 @@ if (isset($_SESSION['message'])) {
 <div class="container_favoris">
     <div class="titre_favoris">
         <h3>Favoris</h3>
+        <p>En cours de developpement!</p>
     </div>
-    <div class=favoris>
+    <!-- <div class=favoris>
         <div class="oeuvre_favoris">
             <img src="/galerieDart/images_photos/oeuvres/photographie/renard.jpg">
         </div>
@@ -76,8 +77,8 @@ if (isset($_SESSION['message'])) {
         </div>
         <div class="oeuvre_favoris">
             <img src="/galerieDart/images_photos/oeuvres/dessin/sketch.jpg">
-        </div>
-    </div>
+        </div> -->
+</div>
 </div>
 </div>
 <h2><a class="delete-account" href="/galerieDart/controller/suppressionController.php" onclick="return confirmDelete()">Supprimer le compte</a></h2>

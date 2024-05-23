@@ -16,7 +16,7 @@
                 <a href="/galerieDart/view/article1_dessin.php">
                     <img src="/galerieDart/images_photos/oeuvres/dessin/girl_lavande.jpg" alt="">
                 </a>
-                <i class="fa-regular fa-heart"></i>
+                <!-- <i class="fa-regular fa-heart"></i> -->
             </div>
             <p class="artiste">Clara Monet </p>
             </p>
@@ -27,7 +27,7 @@
                 <a href="/galerieDart/view/article2_dessin.php">
                     <img src="/galerieDart/images_photos/oeuvres/dessin/dog.jpg" alt="">
                 </a>
-                <i class=" fa-regular fa-heart"></i>
+                <!-- <i class=" fa-regular fa-heart"></i> -->
             </div>
             <p class="artiste">Sophie Lemoine</p>
             <p class="titre_oeuvre">Regard Loyal</p>
@@ -37,7 +37,7 @@
                 <a href="/galerieDart/view/article3_dessin.php">
                     <img src=" /galerieDart/images_photos/oeuvres/dessin/sketch.jpg" alt="">
                 </a>
-                <i class="fa-regular fa-heart"></i>
+                <!-- <i class="fa-regular fa-heart"></i> -->
             </div>
             <p class="artiste">Juliette Rousseau</p>
             <p class="titre_oeuvre">Fragmentation de l’âme</p>
@@ -47,7 +47,7 @@
                 <a href="/galerieDart/view/article4_dessin.php">
                     <img src="/galerieDart/images_photos/oeuvres/dessin/eye.jpg" alt="">
                 </a>
-                <i class="fa-regular fa-heart"></i>
+                <!-- <i class="fa-regular fa-heart"></i> -->
             </div>
             <p class="artiste">Camille Delaroche</p>
             <p class="titre_oeuvre">Regard Intérieur</p>
@@ -57,7 +57,7 @@
                 <a href="/galerieDart/view/article5_dessin.php">
                     <img src="/galerieDart/images_photos/oeuvres/dessin/woman_cat.jpg" alt="">
                 </a>
-                <i class="fa-regular fa-heart"></i>
+                <!-- <i class="fa-regular fa-heart"></i> -->
             </div>
             <p class="artiste">Amélie Durand </p>
             <p class="titre_oeuvre">La Rencontre Mystique</p>

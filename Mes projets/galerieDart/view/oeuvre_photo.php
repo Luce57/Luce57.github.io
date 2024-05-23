@@ -12,7 +12,7 @@
         <a href="/galerieDart/view/article1_photo.php">
           <img src="/galerieDart/images_photos/oeuvres/photographie/bird.jpg" alt="">
         </a>
-        <i class="fa-regular fa-heart"></i>
+        <!-- <i class="fa-regular fa-heart"></i> -->
       </div>
       <p class="artiste">Monique Lévesque</p>
       <p class="titre_oeuvre">Élégance Naturelle</p>
@@ -22,7 +22,7 @@
         <a href="/galerieDart/view/article2_photo.php">
           <img src="/galerieDart/images_photos/oeuvres/photographie/colors.jpg" alt="">
         </a>
-        <i class="fa-regular fa-heart"></i>
+        <!-- <i class="fa-regular fa-heart"></i> -->
       </div>
       <p class="artiste">Alexia Dupont</p>
       <p class="titre_oeuvre">Éclat de Couleurs</p>
@@ -32,7 +32,7 @@
         <a href="/galerieDart/view/article3_photo.php">
           <img src="/galerieDart/images_photos/oeuvres/photographie/meduse.jpg" alt="">
         </a>
-        <i class="fa-regular fa-heart"></i>
+        <!-- <i class="fa-regular fa-heart"></i> -->
       </div>
       <p class="artiste">Marina Bleu</p>
       <p class="titre_oeuvre">Danse des Méduses</p>
@@ -42,7 +42,7 @@
         <a href="/galerieDart/view/article4_photo.php">
           <img src="/galerieDart/images_photos/oeuvres/photographie/renard.jpg" alt="">
         </a>
-        <i class="fa-regular fa-heart"></i>
+        <!-- <i class="fa-regular fa-heart"></i> -->
       </div>
       <p class="artiste">Maxime Lefèvre</p>
       <p class="titre_oeuvre">La Sérénité du Renard</p>
@@ -52,7 +52,7 @@
         <a href="/galerieDart/view/article5_photo.php">
           <img src="/galerieDart/images_photos/oeuvres/photographie/thunderstorm.jpg" alt="">
         </a>
-        <i class="fa-regular fa-heart"></i>
+        <!-- <i class="fa-regular fa-heart"></i> -->
       </div>
       <p class="artiste">Léa Dons</p>
       <p class="titre_oeuvre">La Danse des Éléments</p>
