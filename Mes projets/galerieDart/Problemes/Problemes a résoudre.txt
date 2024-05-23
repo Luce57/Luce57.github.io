@@ -1,0 +1,7 @@
+probleme appel base de donnes pour l'insertion d'images en récuperant de la base de données
+
+les pages dans problemes sont des potentielles solutions
+
+Pour résoudre le souci a chercher :
+orienter objet.
+chercher peut etre possibilité de faire deux tables discinctes que les img liens et tous ce qui les decrit dans une autres
