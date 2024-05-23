@@ -21,7 +21,7 @@ if (!function_exists('generateTableRow')) {
             <h2>Paramètres</h2>
         </div>
         <div class="avatar">
-            <img src="/galerieDart/images_photos/galerie/profil.jpg" alt="">
+            <img src="/galerieDart/images_photos/galerie/Jack_profil.jpg" alt="">
         </div>
         <div class="nom_admin">
             <h2>administrateur</h2>
