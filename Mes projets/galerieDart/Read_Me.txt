@@ -7,10 +7,8 @@ https://www.figma.com/design/LWjOdYigyMrTqgPdYOrAV5/ADB?node-id=11%3A3&t=jbFjspw
 Pour la BDD:
 \GitHub\Luce57.github.io\Mes projets\galerieDart\BDD
 
-Trello: 
+Trello:
 https://trello.com/invite/b/GILPNCqY/ATTIe8cd2ecc2cfe98c6c2b33890702676e1108BEE7B/adb
-
 
 Les differents identifiants pour se connecter à l'application
 ce trouve dans dossier BDD fichier de base de données.sql donc galerie_art.sql
-
