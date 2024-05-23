@@ -1,5 +1,5 @@
 <?php
-include($_SERVER['DOCUMENT_ROOT'] . "/galerieDart/model/dbb_connect.php");
+include($_SERVER['DOCUMENT_ROOT'] . "/model/dbb_connect.php");
 
 // récupéré les fonctions de la base de données pour afficher dans le tableau
 if (!function_exists('getusers')) {

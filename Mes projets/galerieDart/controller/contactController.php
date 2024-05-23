@@ -1,7 +1,7 @@
 <?php
 session_start();
 // j'inclus le fichier oeuvreModel.php qui contient la fonction getImage 
-require($_SERVER['DOCUMENT_ROOT'] . "/galerieDart/model/contactModel.php");
+require($_SERVER['DOCUMENT_ROOT'] . "/model/contactModel.php");
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $nom_prenom = $_POST['nom_prenom'];
     $email = $_POST['email'];
@@ -17,6 +17,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     } else {
         $_SESSION['message'] = "Le champ 'nom_prenom' ne peut pas être vide.";
     }
-    header('Location: /galerieDart/view/contact.php'); // Redirige vers la page de contact
+    header('Location: /view/contact.php'); // Redirige vers la page de contact
     exit();
 }

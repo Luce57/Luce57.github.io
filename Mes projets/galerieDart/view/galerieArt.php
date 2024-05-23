@@ -1,10 +1,10 @@
 <!-- bien mettre $_server variable super global sinon ne trouve pas le chemin du fichier -->
 <!-- header -->
-<?php include $_SERVER['DOCUMENT_ROOT'] . "/galerieDart/view/header.php"; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/view/header.php"; ?>
 <!-- banniere -->
 <div class="banniere">
   <!-- creer un carrouselle d 'images' -->
-  <img id="carousel" src="/galerieDart/images_photos/img_acceuil/banniere0.jpg" alt="image1" />
+  <img id="carousel" src="/images_photos/img_acceuil/banniere0.jpg" alt="image1" />
   <div class="titre_banniere">
     <h1>L'Éclat des songes</h1>
   </div>
@@ -15,9 +15,9 @@
   <h2>Oeuvres à la une</h2>
 </div>
 <div class=oeuvre_a_la_une>
-  <img class="oeuvreUne" src="/galerieDart/images_photos/oeuvres/peintures/woman.jpg" alt="">
-  <img class="oeuvreUne" src="/galerieDart/images_photos/img_acceuil/banniere3.jpg" alt="">
-  <img class="oeuvreUne" src="/galerieDart/images_photos/oeuvres/dessin/girl_lavande.jpg" alt="">
+  <img class="oeuvreUne" src="/images_photos/oeuvres/peintures/woman.jpg" alt="">
+  <img class="oeuvreUne" src="/images_photos/img_acceuil/banniere3.jpg" alt="">
+  <img class="oeuvreUne" src="/images_photos/oeuvres/dessin/girl_lavande.jpg" alt="">
 </div>
 <!-- gallerie -->
 <div class="titre_acceuil">
@@ -27,20 +27,20 @@
 </div>
 <div class="type">
   <div class="card_1">
-    <a href="/galerieDart/view/oeuvre_dessin1.php">Dessin</a>
-    <img src="/galerieDart/images_photos/img_acceuil/dessins.jpg" alt="dessin">
+    <a href="/view/oeuvre_dessin1.php">Dessin</a>
+    <img src="/images_photos/img_acceuil/dessins.jpg" alt="dessin">
   </div>
   <div class="card_1">
-    <a href="/galerieDart/view/oeuvre_peinture.php">peinture</a>
-    <img src="/galerieDart/images_photos/img_acceuil/peinture.jpg" alt="peinture">
+    <a href="/view/oeuvre_peinture.php">peinture</a>
+    <img src="/images_photos/img_acceuil/peinture.jpg" alt="peinture">
   </div>
   <div class="card_1">
-    <a href="/galerieDart/view/oeuvre_photo.php">Photos</a>
-    <img src="/galerieDart/images_photos/img_acceuil/photos.jpg" alt="photos">
+    <a href="/view/oeuvre_photo.php">Photos</a>
+    <img src="/images_photos/img_acceuil/photos.jpg" alt="photos">
   </div>
   <div class="card_1">
-    <a href="/galerieDart/view/oeuvre_ai.php">Ai</a>
-    <img src="/galerieDart/images_photos/img_acceuil/ai.jpg" alt="ai">
+    <a href="/view/oeuvre_ai.php">Ai</a>
+    <img src="/images_photos/img_acceuil/ai.jpg" alt="ai">
   </div>
 </div>
 <!-- a propos -->
@@ -50,7 +50,7 @@
   </div>
   <div class=a_propos>
     <div class="carousel">
-      <img id="carousel_propos" src="/galerieDart/images_photos/galerie/equipe.jpg" alt="image1" />
+      <img id="carousel_propos" src="/images_photos/galerie/equipe.jpg" alt="image1" />
     </div>
     <div class="texte">
       <p>Bienvenue à “L’Éclat des Songes”</p>
@@ -59,7 +59,7 @@
       <p>Entrez dans notre univers lumineux, laissez-vous emporter par la magie des songes et rejoignez-nous pour célébrer l’art sous toutes ses formes.</p>
       <p>Bienvenue à “L’Éclat des Songes”. </p>
       <!-- <button class="cta">En savoir plus</button> -->
-      <a href="/galerieDart/view/aPropos.php" class="cta">En savoir plus</a>
+      <a href="/view/aPropos.php" class="cta">En savoir plus</a>
     </div>
   </div>
 </div>
@@ -73,17 +73,17 @@
     <p>Découvrez notre galerie d’art où chaque œuvre est un éclat d’âme. Contactez-nous pour plonger dans ce monde de rêves et de couleurs.</p>
     <p>🌟 Explorez. Rêvez. Créez. 🌟</p>
     <!-- <button class="cta">Contactez-nous</button> -->
-    <a href="/galerieDart/view/contact.php" class="cta">Contactez-nous</a>
+    <a href="/view/contact.php" class="cta">Contactez-nous</a>
   </div>
 </div>
 <!-- footer -->
-<?php include $_SERVER['DOCUMENT_ROOT'] . "/galerieDart/view/footer.php"; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/view/footer.php"; ?>
 <!-- pour les script en java les carrouselle rentre en conflit car j appele la meme fonction currentIndex pour y
 remedier j'utilise function() cela permet de faire appel independamment de chaque carroussel la meme fonction -->
 <!-- chaque script a sa propre variable meme si elle sont nomme de la meme maniere -->
 <script>
   (function() {
-    var images = ["/galerieDart/images_photos/galerie/equipe.jpg", "/galerieDart/images_photos/galerie/galerie2.jpg", "/galerieDart/images_photos/galerie/equipe4.jpg"];
+    var images = ["/images_photos/galerie/equipe.jpg", "/images_photos/galerie/galerie2.jpg", "/images_photos/galerie/equipe4.jpg"];
     var currentIndex = 0;
     var carousel = document.getElementById("carousel_propos");
     setInterval(function() {
@@ -94,7 +94,7 @@ remedier j'utilise function() cela permet de faire appel independamment de chaqu
 </script>
 <script>
   (function() {
-    var images = ["/galerieDart/images_photos/img_acceuil/banniere0.jpg", "/galerieDart/images_photos/img_acceuil/banniere1.jpg", "/galerieDart/images_photos/img_acceuil/banniere2.jpg"];
+    var images = ["/images_photos/img_acceuil/banniere0.jpg", "/images_photos/img_acceuil/banniere1.jpg", "/images_photos/img_acceuil/banniere2.jpg"];
     var currentIndex = 0;
     var carousel = document.getElementById("carousel");
     setInterval(function() {

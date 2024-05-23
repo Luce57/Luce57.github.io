@@ -1,9 +1,9 @@
-<?php include $_SERVER['DOCUMENT_ROOT'] . "/galerieDart/view/header.php"; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/view/header.php"; ?>
 <div class="container_inscription">
     <div class="fond_formulaire"></div>
     <div class="inscription">
         <h1>Inscription</h1>
-        <form action="<?php $_SERVER['DOCUMENT_ROOT'] ?>/galerieDart/controller/inscriptionController.php" method="POST">
+        <form action="<?php $_SERVER['DOCUMENT_ROOT'] ?>/controller/inscriptionController.php" method="POST">
             <input type="text" id="pseudo" name="user_name" placeholder="Pseudo" required autofocus><br>
             <input type="text" id="name" name="nom" placeholder="Nom" required><br>
             <input type="text" id="name" name="prenom" placeholder="Prenom" required><br>
@@ -15,4 +15,4 @@
     </div>
 </div>
 
-<?php include $_SERVER['DOCUMENT_ROOT'] . "/galerieDart/view/footer.php"; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/view/footer.php"; ?>

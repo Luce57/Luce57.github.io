@@ -3,10 +3,10 @@
 
 
 <?php
-require($_SERVER['DOCUMENT_ROOT'] . "/galerieDart/model/Insert_imgModel.php");
+require($_SERVER['DOCUMENT_ROOT'] . "/model/Insert_imgModel.php");
 // loadImages();
 
-require($_SERVER['DOCUMENT_ROOT'] . "/galerieDart/model/Insert_imgModel.php");
+require($_SERVER['DOCUMENT_ROOT'] . "/model/Insert_imgModel.php");
 
 class ArtObjectController
 {

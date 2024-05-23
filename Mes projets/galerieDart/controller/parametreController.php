@@ -11,8 +11,8 @@ var_dump($_SESSION);
 echo "Session started";
 
 // Inclut les fichiers de modèle nécessaires
-require($_SERVER['DOCUMENT_ROOT'] . "/galerieDart/model/parametreModel.php");
-require($_SERVER['DOCUMENT_ROOT'] . "/galerieDart/model/connexionModel.php");
+require($_SERVER['DOCUMENT_ROOT'] . "/model/parametreModel.php");
+require($_SERVER['DOCUMENT_ROOT'] . "/model/connexionModel.php");
 
 // Vérifie si le bouton 'bValider' a été cliqué
 if (isset($_POST['bValider'])) {
@@ -35,7 +35,7 @@ if (isset($_POST['bValider'])) {
             if (!$utilisateur) {
                 // Stocke un message d'erreur dans la variable de session si la mise à jour de l'email a échoué
                 $_SESSION['message'] = "Une erreur s'est produite lors de la mise à jour de l'email.";
-                header("Location: /galerieDart/view/compte_utilisateur.php");
+                header("Location: /view/compte_utilisateur.php");
                 exit();
             } else {
                 // Stocke un message de succès dans la variable de session si la mise à jour de l'email a réussi
@@ -49,7 +49,7 @@ if (isset($_POST['bValider'])) {
             if ($current_password_hashed === false || !password_verify($mot_de_passe_actuel, $current_password_hashed)) {
                 // Stocke un message d'erreur dans la variable de session si le mot de passe actuel est incorrect
                 $_SESSION['message'] = "Le mot de passe actuel est incorrect.";
-                header("Location: /galerieDart/view/compte_utilisateur.php");
+                header("Location: /view/compte_utilisateur.php");
                 exit();
             }
             $nouveau_mot_de_passe_hashed = password_hash($nouveau_mot_de_passe, PASSWORD_DEFAULT);
@@ -57,7 +57,7 @@ if (isset($_POST['bValider'])) {
             if (!$utilisateur) {
                 // Stocke un message d'erreur dans la variable de session si la mise à jour du mot de passe a échoué
                 $_SESSION['message'] = "Une erreur s'est produite lors de la mise à jour du mot de passe.";
-                header("Location: /galerieDart/view/compte_utilisateur.php");
+                header("Location: /view/compte_utilisateur.php");
                 exit();
             } else {
                 // Stocke un message de succès dans la variable de session si la mise à jour du mot de passe a réussi
@@ -66,13 +66,13 @@ if (isset($_POST['bValider'])) {
         }
 
         // Redirige l'utilisateur vers la page de profil
-        header("Location: /galerieDart/view/compte_utilisateur.php");
+        header("Location: /view/compte_utilisateur.php");
         exit();
     } else {
         // Stocke un message d'erreur dans la variable de session si l'utilisateur n'est pas connecté
         $_SESSION['message'] = "User is not logged in";
         // Redirige l'utilisateur vers la page de connexion
-        header("Location: /galerieDart/view/connexion.php");
+        header("Location: /view/connexion.php");
         exit();
     }
 }

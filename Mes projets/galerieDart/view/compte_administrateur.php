@@ -1,6 +1,6 @@
 <?php
-include_once $_SERVER['DOCUMENT_ROOT'] . "/galerieDart/view/header.php";
-require_once($_SERVER['DOCUMENT_ROOT'] . "/galerieDart/controller/compte_administrateurController.php");
+include_once $_SERVER['DOCUMENT_ROOT'] . "/view/header.php";
+require_once($_SERVER['DOCUMENT_ROOT'] . "/controller/compte_administrateurController.php");
 
 if (!function_exists('generateTableRow')) {
     function generateTableRow($item, $fields, $idField)
@@ -21,11 +21,11 @@ if (!function_exists('generateTableRow')) {
             <h2>Paramètres</h2>
         </div>
         <div class="avatar">
-            <img src="/galerieDart/images_photos/galerie/Jack_profil.jpg" alt="">
+            <img src="/images_photos/galerie/Jack_profil.jpg" alt="">
         </div>
         <div class="nom_admin">
             <h2>administrateur</h2>
-            <h2><a href="<?php $_SERVER['DOCUMENT_ROOT'] ?>/galerieDart/controller/deconnexionController.php">Déconnexion</a></h2>
+            <h2><a href="<?php $_SERVER['DOCUMENT_ROOT'] ?>/controller/deconnexionController.php">Déconnexion</a></h2>
         </div>
     </div>
     <!-- <div class="fond_admin"></div> -->
@@ -117,4 +117,4 @@ if (!function_exists('generateTableRow')) {
 <!--modal creer utilisateur   -->
 
 </script>
-<?php include $_SERVER['DOCUMENT_ROOT'] . "/galerieDart/view/footer.php"; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/view/footer.php"; ?>

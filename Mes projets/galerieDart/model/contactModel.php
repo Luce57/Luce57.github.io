@@ -1,5 +1,5 @@
 <?php
-include($_SERVER['DOCUMENT_ROOT'] . "/galerieDart/model/dbb_connect.php");
+include($_SERVER['DOCUMENT_ROOT'] . "/model/dbb_connect.php");
 function saveMessage($nom_prenom, $email, $message)
 {
     global $bdd;

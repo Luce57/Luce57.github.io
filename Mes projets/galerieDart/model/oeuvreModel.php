@@ -1,8 +1,7 @@
-
 <!-- recupere img dans base de données -->
 <?php
 // etablir connexion base de données
-include($_SERVER['DOCUMENT_ROOT']."/galerieDart/model/dbb_connect.php");
+include($_SERVER['DOCUMENT_ROOT'] . "/model/dbb_connect.php");
 //je creer une fonction qui va me permettre de recuperer l'id de l image
 // function getImage($id){
 //     // variable global on l appel pour la fonction dans la page dbb_connect
@@ -37,4 +36,3 @@ include($_SERVER['DOCUMENT_ROOT']."/galerieDart/model/dbb_connect.php");
 
 
 ?>
-

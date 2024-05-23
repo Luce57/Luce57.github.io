@@ -1,5 +1,5 @@
 <?php
-require($_SERVER['DOCUMENT_ROOT'] . "/galerieDart/model/compte_administrateurModel.php");
+require($_SERVER['DOCUMENT_ROOT'] . "/model/compte_administrateurModel.php");
 // session_start();
 
 error_reporting(E_ALL);

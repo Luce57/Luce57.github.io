@@ -1,6 +1,6 @@
 <!-- bien mettre $_server variable super global sinon ne trouve pas le chemin du fichier -->
 <!-- header -->
-<?php include $_SERVER['DOCUMENT_ROOT'] . "/galerieDart/view/header.php"; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/view/header.php"; ?>
 
 <div class="container">
   <div class="h2_oeuvre">
@@ -10,8 +10,8 @@
   <div class=container_dessin>
     <div class=card_dessin>
       <div class="image-container">
-        <a href="/galerieDart/view/article1_peinture.php">
-          <img src="/galerieDart/images_photos/oeuvres/peintures/bird.jpg" alt="">
+        <a href="/view/article1_peinture.php">
+          <img src="/images_photos/oeuvres/peintures/bird.jpg" alt="">
         </a>
         <!-- <i class="fa-regular fa-heart"></i> -->
       </div>
@@ -20,8 +20,8 @@
     </div>
     <div class=card_dessin>
       <div class="image-container">
-        <a href="/galerieDart/view/article2_peinture.php">
-          <img src="/galerieDart/images_photos/oeuvres/peintures/eye.jpg" alt="">
+        <a href="/view/article2_peinture.php">
+          <img src="/images_photos/oeuvres/peintures/eye.jpg" alt="">
         </a>
         <!-- <i class="fa-regular fa-heart"></i> -->
       </div>
@@ -30,8 +30,8 @@
     </div>
     <div class=card_dessin>
       <div class="image-container">
-        <a href="/galerieDart/view/article3_peinture.php">
-          <img src="/galerieDart/images_photos/oeuvres/peintures/girl.jpg" alt="">
+        <a href="/view/article3_peinture.php">
+          <img src="/images_photos/oeuvres/peintures/girl.jpg" alt="">
         </a>
         <!-- <i class="fa-regular fa-heart"></i> -->
       </div>
@@ -40,8 +40,8 @@
     </div>
     <div class=card_dessin>
       <div class="image-container">
-        <a href="/galerieDart/view/article4_peinture.php">
-          <img src="/galerieDart/images_photos/oeuvres/peintures/window.jpg" alt="">
+        <a href="/view/article4_peinture.php">
+          <img src="/images_photos/oeuvres/peintures/window.jpg" alt="">
         </a>
         <!-- <i class="fa-regular fa-heart"></i> -->
       </div>
@@ -50,8 +50,8 @@
     </div>
     <div class=card_dessin>
       <div class="image-container">
-        <a href="/galerieDart/view/article5_peinture.php">
-          <img src="/galerieDart/images_photos/oeuvres/peintures/woman.jpg" alt="">
+        <a href="/view/article5_peinture.php">
+          <img src="/images_photos/oeuvres/peintures/woman.jpg" alt="">
         </a>
         <!-- <i class="fa-regular fa-heart"></i> -->
       </div>
@@ -61,4 +61,4 @@
   </div>
 </div>
 <!-- footer -->
-<?php include $_SERVER['DOCUMENT_ROOT'] . "/galerieDart/view/footer.php"; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/view/footer.php"; ?>

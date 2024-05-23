@@ -9,7 +9,7 @@
     @import url("https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap");
   </style>
   <script src="https://kit.fontawesome.com/4fddd04353.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="/galerieDart/assets/galerieArt.css" />
+  <link rel="stylesheet" href="/assets/galerieArt.css" />
 </head>
 
 <body>
@@ -18,7 +18,7 @@
 
   ?>
   <header>
-    <img class="logo" src="/galerieDart/images_photos/galerie/logo_eclat.png " alt="logo" />
+    <img class="logo" src="/images_photos/galerie/logo_eclat.png " alt="logo" />
     <div class="navigation_1">
       <div class="recherche">
         <!-- <nav> -->
@@ -33,22 +33,22 @@
           </button> -->
 
         <ul>
-          <li><a href="/galerieDart/view/galerieArt.php/#gallerie">Gallerie</a></li>
-          <li><a href="/galerieDart/view/galerieArt.php/#propos">A propos</a></li>
-          <li><a href="/galerieDart/view/galerieArt.php/#contact">Contact</a></li>
+          <li><a href="/view/galerieArt.php/#gallerie">Gallerie</a></li>
+          <li><a href="/view/galerieArt.php/#propos">A propos</a></li>
+          <li><a href="/view/galerieArt.php/#contact">Contact</a></li>
         </ul>
         <!-- </nav> -->
       </div>
     </div>
     <div class="navigation_2">
       <button class="home">
-        <a href="/galerieDart/view/galerieArt.php">
+        <a href="/view/galerieArt.php">
           <i class="fa-solid fa-house house-icon"></i>
         </a>
       </button>
       <ul>
-        <li><a href="/galerieDart/view/inscription.php">s'inscrire</a></li>
-        <li><a href="/galerieDart/view/connexion.php">connexion</a></li>
+        <li><a href="/view/inscription.php">s'inscrire</a></li>
+        <li><a href="/view/connexion.php">connexion</a></li>
       </ul>
     </div>
   </header>

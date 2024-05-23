@@ -1,6 +1,6 @@
 <?php
-include_once $_SERVER['DOCUMENT_ROOT'] . "/galerieDart/view/header.php";
-require_once($_SERVER['DOCUMENT_ROOT'] . "/galerieDart/controller/compte_administrateurController.php");
+include_once $_SERVER['DOCUMENT_ROOT'] . "/view/header.php";
+require_once($_SERVER['DOCUMENT_ROOT'] . "/controller/compte_administrateurController.php");
 ?>
 <style>
     form {
@@ -16,4 +16,4 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/galerieDart/controller/compte_adminis
     <input type="submit" name="delete_contact" value="Supprimer">
 </form>
 <div style='text-align: center;    margin-bottom: 3rem;'><a href='compte_administrateur.php'>Retour à la page d'administration</a></div>
-<?php include $_SERVER['DOCUMENT_ROOT'] . "/galerieDart/view/footer.php"; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/view/footer.php"; ?>

@@ -1,7 +1,8 @@
 <?php
-include($_SERVER['DOCUMENT_ROOT']."/galerieDart/model/dbb_connect.php");
+include($_SERVER['DOCUMENT_ROOT'] . "/model/dbb_connect.php");
 
-function delete($user_name) {
+function delete($user_name)
+{
     global $bdd;
 
     $sql = "DELETE FROM users WHERE user_name = :user_name";

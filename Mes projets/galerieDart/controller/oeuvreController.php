@@ -2,7 +2,7 @@
 <?php
 session_start();
 // j'inclus le fichier oeuvreModel.php qui contient la fonction getImage 
-require($_SERVER['DOCUMENT_ROOT']."/galerieDart/model/oeuvreModel.php");
+require($_SERVER['DOCUMENT_ROOT'] . "/model/oeuvreModel.php");
 
 // // include($_SERVER['DOCUMENT_ROOT']."/galerie d'art/model/oeuvreModel.php");
 // // visibilité de l oeuvre
@@ -20,6 +20,6 @@ require($_SERVER['DOCUMENT_ROOT']."/galerieDart/model/oeuvreModel.php");
 // }
 // $_SESSION['url_image']=showOeuvrePage(6);
 //  // inclure le fichier oeuvre_dessin.php pour afficher l'oeuvre dessin
-include($_SERVER['DOCUMENT_ROOT']."/galerieDart/view/oeuvre_dessin.php");
+include($_SERVER['DOCUMENT_ROOT'] . "/view/oeuvre_dessin.php");
 
 ?>

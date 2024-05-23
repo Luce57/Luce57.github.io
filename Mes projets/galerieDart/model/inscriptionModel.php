@@ -1,6 +1,7 @@
 <?php
-include($_SERVER['DOCUMENT_ROOT']."/galerieDart/model/dbb_connect.php");
-function inscription($user_name, $nom, $prenom, $email, $password){
+include($_SERVER['DOCUMENT_ROOT'] . "/model/dbb_connect.php");
+function inscription($user_name, $nom, $prenom, $email, $password)
+{
     global $bdd;
 
     // Vérifier si l'utilisateur existe déjà
@@ -17,7 +18,7 @@ function inscription($user_name, $nom, $prenom, $email, $password){
     }
 
     // Si l'utilisateur n'existe pas, continuez l'inscription
-    $role='utilisateur';//définir le role lors de l'inscription
+    $role = 'utilisateur'; //définir le role lors de l'inscription
     $date_creation = date('Y-m-d H:i:s');
     $d_connect = date('Y-m-d H:i:s');
     $sql = "INSERT INTO users (user_name, role, nom, prenom, email, password, date_creation, d_connect ) VALUES (:user_name, :role, :nom, :prenom, :email, :password, :date_creation, :d_connect)";
@@ -30,10 +31,10 @@ function inscription($user_name, $nom, $prenom, $email, $password){
     $stmt->bindParam(':password', $password);
     $stmt->bindParam(':date_creation', $date_creation);
     $stmt->bindParam(':d_connect', $d_connect);
-    try{
+    try {
         $stmt->execute();
         return true;
-    }catch(PDOException $e){
+    } catch (PDOException $e) {
         echo "Erreur PDO : " . $e->getMessage(); // Afficher l'erreur PDO
         return false;
     }

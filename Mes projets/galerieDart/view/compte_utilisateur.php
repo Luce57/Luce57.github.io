@@ -1,4 +1,4 @@
-<?php include $_SERVER['DOCUMENT_ROOT'] . "/galerieDart/view/header.php"; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/view/header.php"; ?>
 <!-- permet de faire apparaitre les massage des parametres -->
 <?php
 if (isset($_SESSION['message'])) {
@@ -23,7 +23,7 @@ if (isset($_SESSION['message'])) {
             <div id="modalParametres" style="display: none; position: fixed; z-index: 9999; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.4);">
                 <div style="background-color: #fefefe; margin: 15% auto; padding: 20px; border: 1px solid #888; width: 500px; display: flex; flex-direction: column; align-items: center;">
                     <div id="emailForm" style="display: none;">
-                        <form action="<?php $_SERVER['DOCUMENT_ROOT'] ?>/galerieDart/controller/parametreController.php" method="POST">
+                        <form action="<?php $_SERVER['DOCUMENT_ROOT'] ?>/controller/parametreController.php" method="POST">
                             <label for="email_actuel">Email actuel :</label>
                             <input type="email" id="email_actuel" name="email_actuel" required><br>
 
@@ -35,7 +35,7 @@ if (isset($_SESSION['message'])) {
                     </div>
 
                     <div id="passwordForm" style="display: none;">
-                        <form action="<?php $_SERVER['DOCUMENT_ROOT'] ?>/galerieDart/controller/parametreController.php" method="POST">
+                        <form action="<?php $_SERVER['DOCUMENT_ROOT'] ?>/controller/parametreController.php" method="POST">
                             <label for="mot_de_passe_actuel">Mot de passe actuel :</label>
                             <input type="password" id="mot_de_passe_actuel" name="mot_de_passe_actuel" required><br>
 
@@ -49,9 +49,9 @@ if (isset($_SESSION['message'])) {
             </div>
         </div>
         <div class="avatar">
-            <img src="/galerieDart/images_photos/galerie/artiste2.jpg" alt="">
+            <img src="/images_photos/galerie/artiste2.jpg" alt="">
         </div>
-        <h2><a href="<?php $_SERVER['DOCUMENT_ROOT'] ?>/galerieDart/controller/deconnexionController.php">Déconnexion</a></h2>
+        <h2><a href="<?php $_SERVER['DOCUMENT_ROOT'] ?>/controller/deconnexionController.php">Déconnexion</a></h2>
     </div>
 </div>
 </div>
@@ -81,7 +81,7 @@ if (isset($_SESSION['message'])) {
 </div>
 </div>
 </div>
-<h2><a class="delete-account" href="/galerieDart/controller/suppressionController.php" onclick="return confirmDelete()">Supprimer le compte</a></h2>
+<h2><a class="delete-account" href="/controller/suppressionController.php" onclick="return confirmDelete()">Supprimer le compte</a></h2>
 
 <script>
     document.getElementById('lienParametres').onclick = function() {
@@ -116,4 +116,4 @@ if (isset($_SESSION['message'])) {
     }
 </script>
 
-<?php include $_SERVER['DOCUMENT_ROOT'] . "/galerieDart/view/footer.php"; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/view/footer.php"; ?>

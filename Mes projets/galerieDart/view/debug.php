@@ -5,7 +5,7 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 // Inclut le modèle
-require($_SERVER['DOCUMENT_ROOT'] . "/galerieDart/model/_.php");
+require($_SERVER['DOCUMENT_ROOT'] . "/model/_.php");
 
 // Récupère les images
 $images = getImages();
