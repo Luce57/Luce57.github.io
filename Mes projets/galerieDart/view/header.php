@@ -21,18 +21,23 @@
     <img class="logo" src="/galerieDart/images_photos/galerie/logo_eclat.png " alt="logo" />
     <div class="navigation_1">
       <div class="recherche">
-        <nav>
+        <!-- <nav> -->
+        <!-- <?php
+              // foreach ($results as $row) {
+              //   echo $row['your_column'];
+              // } 
+              ?>
           <input type="search" id="site-search" name="chercher" aria-label="Recherche sur le site" placeholder="Recherche" pattern="^[a-zA-Z0-9_]+$" required autofocus />
           <button class="search-icon">
             <i class="fa-solid fa-magnifying-glass search-icon"></i>
-          </button>
+          </button> -->
 
-          <ul>
-            <li><a href="/galerieDart/view/galerieArt.php/#gallerie">Gallerie</a></li>
-            <li><a href="/galerieDart/view/galerieArt.php/#propos">A propos</a></li>
-            <li><a href="/galerieDart/view/galerieArt.php/#contact">Contact</a></li>
-          </ul>
-        </nav>
+        <ul>
+          <li><a href="/galerieDart/view/galerieArt.php/#gallerie">Gallerie</a></li>
+          <li><a href="/galerieDart/view/galerieArt.php/#propos">A propos</a></li>
+          <li><a href="/galerieDart/view/galerieArt.php/#contact">Contact</a></li>
+        </ul>
+        <!-- </nav> -->
       </div>
     </div>
     <div class="navigation_2">

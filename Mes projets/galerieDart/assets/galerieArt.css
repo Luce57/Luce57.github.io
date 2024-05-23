@@ -73,6 +73,9 @@ header {
   justify-content: space-between;
   padding: 0;
 }
+.navigation_1 ul li {
+  margin-right: 3rem;
+}
 .recherche {
   display: flex;
   flex-direction: column;

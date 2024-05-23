@@ -9,4 +9,3 @@ if (isset($_SESSION['user_name'])) {
 $_SESSION['account_deleted'] = "Votre compte a été supprimé avec succès.";
 header("Location: /galerieDart/view/connexion.php");
 exit();
-?>
