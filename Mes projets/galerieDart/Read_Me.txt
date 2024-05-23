@@ -11,5 +11,6 @@ Trello:
 https://trello.com/invite/b/GILPNCqY/ATTIe8cd2ecc2cfe98c6c2b33890702676e1108BEE7B/adb
 
 
-
+Les differents identifiants pour se connecter à l'application
+ce trouve dans dossier BDD fichier de base de données.sql donc galerie_art.sql
 
